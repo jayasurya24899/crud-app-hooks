@@ -18,7 +18,7 @@ const addUser = (user)=>{
 }
 const deleteUser = (id)=>{
     setUsers(users.filter((user)=>user.id!==id))
-    setEditing(false);
+    setEditing(false); 
 }
 
     const [users,setUsers] = useState(usersData);
